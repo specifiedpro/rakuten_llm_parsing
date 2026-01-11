@@ -1,0 +1,6 @@
+version: 1
+custom_rules:
+  # - module: rules.custom.example_rule
+  #   function: parse_example
+  #   enabled: true
+  #   priority: 50

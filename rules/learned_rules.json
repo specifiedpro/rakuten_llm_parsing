@@ -1,0 +1,61 @@
+{
+  "version": 1,
+  "last_updated": "2025-11-24T09:52:51.084303",
+  "rules": [
+    {
+      "offer_type": "cash_bonus",
+      "pattern": "[$£]?\\s*\\d+(?:\\.\\d+)?\\s+CASH\\s+BONUS",
+      "examples": [
+        "$10 CASH BONUS",
+        "$20 CASH BONUS",
+        "$15 CASH BONUS"
+      ],
+      "unit": "USD",
+      "count": 3,
+      "priority": 90,
+      "created": "2025-11-24T09:52:31.480524",
+      "generated_by": "llm"
+    },
+    {
+      "offer_type": "price",
+      "pattern": "as low as\\s+[$£]?\\d+(?:\\.\\d+)?",
+      "examples": [
+        "as low as $9.99",
+        "as low as £9.99",
+        "as low as $19.99"
+      ],
+      "unit": "USD",
+      "count": 3,
+      "priority": 90,
+      "created": "2025-11-24T09:52:38.735404",
+      "generated_by": "llm"
+    },
+    {
+      "offer_type": "store_credit",
+      "pattern": "(?:Up\\s+to\\s+)?[$£]?\\d+(?:\\.\\d+)?\\s+in\\s+store\\s+credit",
+      "examples": [
+        "Up to $150 in store credit",
+        "Up to $100 in store credit",
+        "Up to $200 in store credit"
+      ],
+      "unit": "USD",
+      "count": 3,
+      "priority": 90,
+      "created": "2025-11-24T09:52:44.125876",
+      "generated_by": "llm"
+    },
+    {
+      "offer_type": "payment_plan",
+      "pattern": "\\d+(?:\\.\\d+)?\\s+interest-free\\s+payments",
+      "examples": [
+        "6 interest-free payments",
+        "4 interest-free payments"
+      ],
+      "unit": "payments",
+      "count": 2,
+      "priority": 90,
+      "created": "2025-11-24T09:52:50.988944",
+      "generated_by": "llm"
+    }
+  ]
+}
